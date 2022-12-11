@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Font1';
+    src: url('GidoleFont/Gidole-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin : 0px;
+    padding : 0px;
+    list-style: none;
+    overflow: scrolls;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    background-color: rgb(54, 53, 53);
+    border: none;
+    height: 1px;
+    margin: 3%;
+}
+
+table{
+    margin-left: -1px;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+
+}
+
+.header1 li{
+    display : inline;
+    margin:1%;
+    padding:1%;
+    color:white;
+    text-align: left;
+    font-size: 25px;
+}
+
+.header1{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    
+}
+
+.box3 {
+
+    display: flexbox;
+    background-color: rgb(10, 10, 10);
+    color:aliceblue;
+    height: 10%;
+    padding: 3%;
+    margin: 0%;
+}
+
+.box3 a{
+    color: rgb(22, 75, 22);
+    margin: 1%;
+    display: inline;
+}
+
+.box3 h3{
+    margin: 1%;
+}
+
+.box3 h4{
+     margin: 1%;
+     margin-bottom: 3% ;
+}
+
+.box3 p{
+    color: rgb(90, 89, 89);
+    margin: 1%;
+    
+}
+
+.box4{
+    vertical-align: top;
+    display: flexbox;
+    margin: 0%;
+    background-color: rgb(10, 10, 10);
+    color:aliceblue;
+    width: 50%;
+    height: 10%;
+    padding: 3%;
+    
+
+}
+
+.box4 h2{
+    padding:0;
+    margin:0;
+    background-color: rgb(10, 10, 10);
+    color:rgb(6, 70, 6)
+}
+
+.box1l{
+
+    display: flexbox;
+    background-color: rgb(10, 10, 10);
+    color:aliceblue;
+    height: 10%;
+    padding: 3%;
+    margin: 0%;
+}
+
+.box1l a{
+    color: rgb(22, 75, 22);
+    margin: 1%;
+    display: inline;
+}
+
+.box1l h3{
+    margin: 1%;
+}
+
+.box1l h4{
+     margin: 1%;
+     margin-bottom: 3% ;
+}
+
+.box1l p{
+    color: rgb(90, 89, 89);
+    margin: 1%;
+    
+}
+
+.b1u{
+    margin-bottom: 3%;
+}
+
+.videobox{
+    background-color: rgb(10, 10, 10);
+}
+
+
+.hh{
+    background-color: rgb(10, 10, 10);
+}
+
+.box4 div{
+    margin: 0;
+   background-color: rgb(10, 10, 10);
+}
+
+.minibox{
+    background-color: rgb(10, 10, 10);
+}
+
+.minitext{
+    background-color: rgb(10, 10, 10);
+    vertical-align: top; 
+    
+}
+
+.quicklinks h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgb(6, 70, 6);
+}
+
+
+.quicklinks a{
+    color: aliceblue;
+    font-family: Font1;
+
+    font-size: 100%;
+    margin: 0.5%;
+}
+
+
+
+.leftn{
+    
+    font-size: 100%;
+    margin: 0.5%;
+}
+
+
+.rec{
+    margin: 50%;
+    padding: 10%;
+
+}
+
+.below {
+
+    display: flexbox;
+    background-color: rgb(10, 10, 10);
+    color:aliceblue;
+    
+    height: 10%;
+    padding: 3%;
+    margin: 0%;
+}
+
+.below a{
+    color: rgb(22, 75, 22);
+    margin: 1%;
+    display: inline;
+}
+
+.below h3{
+    margin: 1%;
+}
+
+.below h4{
+     margin: 1%;
+     margin-bottom: 3% ;
+}
+
+.below p{
+    color: rgb(90, 89, 89);
+    margin: 1%;
+    
+}
+
+
+.sectab{
+    position: sticky;
+    position: -webkit-sticky;
+      top: 0;
+      left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.sectab ul{
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.sectab ul li{
+    display: flex;
+    align-items: center;
+    float: left;
+    list-style-type: none;
+    width: auto;
+    height: 100%;
+    padding:0 1% 0 1%;
+    margin:0;
+    background-color: transparent;
+}
+
+.sectab li a{
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: transparent;
+}
+
+.sectab li a:hover{
+    color: green;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -ms-transition: color .5s;
+    -o-transition: color .5s;
+    transition: color .5s;
+}

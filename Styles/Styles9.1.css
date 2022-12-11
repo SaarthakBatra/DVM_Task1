@@ -1,0 +1,13 @@
+.Header{
+    width: 100%;
+    height: 100vh;
+    background-color: turquoise;
+    transition: background 5s;}
+.Header.nav-scrolled{background-color: violet;}
+.Body{
+    width: 100%;
+    height: 100vh;
+    background-color: tomato;
+    transition: background 5s;
+}
+.Body.nav-scrolled{background-color: violet;}
